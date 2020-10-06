@@ -27,7 +27,7 @@ public class ApplicationConfig {
          // 只需要修改红色部分, 保留其他内容
         dataSource.setUrl("jdbc:mysql://laiproject-instance2.cdznizk9ugkm.us-east-2.rds.amazonaws.com:3306/ecommerce?createDatabaseIfNotExist=true&serverTimezone=UTC");
         dataSource.setUsername("admin");
-        dataSource.setPassword("Cjf19860727!");
+        dataSource.setPassword("xxx"); // Your password
 
         return dataSource;
     }
